@@ -12,7 +12,7 @@ Results on my Thinkpad:
 * Go: 35 milliseconds, 151 KiB allocated
 * Common Lisp: 900 milliseconds, 178 MiB consed (which doesn't speak
   to the actual memory usage, just bytes consed)
-* C: 17 milliseconds, no memory allocated
+* C: 17 milliseconds, no heap allocated
 * node.js: 93 milliseconds, 3.9 MiB heap total
 
 Relevant versions (with the exception of Go, all of these are grabbed
