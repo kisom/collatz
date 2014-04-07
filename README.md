@@ -13,12 +13,16 @@ Results on my Thinkpad:
 * Common Lisp: 900 milliseconds, 178 MiB consed (which doesn't speak
   to the actual memory usage, just bytes consed)
 * C: 17 milliseconds, no memory allocated
+* node.js: 93 milliseconds, 3.9 MiB heap total
 
-Relevant versions:
+Relevant versions (with the exception of Go, all of these are grabbed
+from the Ubuntu repositories):
 
 * GHC 7.6.3
 * go version devel +ada6f2d5f99f Sun Mar 02 20:39:20 2014 -0800 linux/amd64
 * SBCL 1.1.1.0.debian
 * gcc (Ubuntu/Linaro 4.8.1-10ubuntu9) 4.8.1
+* nodejs v0.10.15
 * System: Ubuntu 13.10, quad core Intel(R) Core(TM) i5-3320M CPU @
   2.60GHz, 8 GB of RAM
+ 
